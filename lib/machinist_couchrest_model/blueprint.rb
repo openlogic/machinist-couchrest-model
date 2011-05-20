@@ -12,5 +12,7 @@ module MachinistCouchrestModel
       MachinistCouchrestModel::Lathe
     end
 
+    def outside_transaction
+    end
   end
 end
