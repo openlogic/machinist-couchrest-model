@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "machinist-couchrest-model"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Machinist support for CouchRest Model}
+    gem.description = %Q{Manufacture test CouchRest models with ease using Machinist}
     gem.email = "pezra@barelyenough.org"
     gem.homepage = "http://github.com/pezra/machinist-couchrest-model"
     gem.authors = ["Peter Williams"]
