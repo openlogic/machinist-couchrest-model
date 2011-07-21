@@ -6,6 +6,8 @@ module MachinistCouchrestModel
       object = make(attributes)
       object.save!
       object.reload
+      object.after_initialize if object.respond_to?(:after_initialize)
+      object
     end
 
     def lathe_class
