@@ -10,12 +10,12 @@ begin
     gem.email = "pezra@barelyenough.org"
     gem.homepage = "http://github.com/pezra/machinist-couchrest-model"
     gem.authors = ["Peter Williams"]
-    gem.add_development_dependency "rspec", ">= 1.2.9"
-    gem.add_development_dependency "rake", ">= 0"
-    gem.add_development_dependency "yard", ">= 0"
-    gem.add_development_dependency "jeweler", ">= 0"
-    gem.add_dependency "machinist", "2.0.0.beta2"  # this is actually lie, it really needs the post beta2 head of master
-    gem.add_dependency "couchrest_model"
+    # gem.add_development_dependency "rspec", ">= 1.2.9"
+    # gem.add_development_dependency "rake", ">= 0"
+    # gem.add_development_dependency "yard", ">= 0"
+    # gem.add_development_dependency "jeweler", ">= 0"
+    # gem.add_dependency "machinist", "2.0.0.beta2"  # this is actually lie, it really needs the post beta2 head of master
+    # gem.add_dependency "couchrest_model"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
