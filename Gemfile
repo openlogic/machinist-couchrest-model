@@ -6,7 +6,6 @@ gem "couchrest_model"
 group :development do
   gem "rake"
   gem "rspec", ">= 1.2.9"
-  gem "rake"
   gem "yard"
   gem "jeweler"
 end
