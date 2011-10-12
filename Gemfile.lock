@@ -1,9 +1,10 @@
 PATH
   remote: .
   specs:
-    machinist-couchrest-model (1.0.0)
+    machinist-couchrest-model (1.1.0)
       couchrest_model
       machinist (= 2.0.0.beta2)
+      machinist-couchrest-model
 
 GEM
   remote: http://rubygems.org/
