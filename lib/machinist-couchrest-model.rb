@@ -18,3 +18,5 @@ module CouchRest #:nodoc:
     end
   end
 end
+
+require 'machinist_couchrest_model/property_protection'
