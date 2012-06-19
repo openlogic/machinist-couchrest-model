@@ -79,4 +79,21 @@ describe "couchrest model blueprints" do
     end
 
   end
+
+  context 'using callbacks' do
+    before do
+      model_class.blueprint(:with_callback) do
+        flavor {"vanilla"}
+        after_make do
+          self.flavor = "chocolate" #note: must use `self.xxx` here because of scoping issues!
+          self.save 
+        end
+      end
+    end
+
+    it 'runs the after_make callback' do
+      model_class.make!(:with_callback).flavor.should == 'chocolate'
+    end
+
+  end
 end
