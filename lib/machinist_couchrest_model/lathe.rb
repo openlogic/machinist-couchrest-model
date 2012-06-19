@@ -11,6 +11,13 @@ module MachinistCouchrestModel
       end
     end
 
+    def after_make(&callback)
+
+      object.class_eval do
+        after_create callback
+      end
+    end
+
     def make_association(attribute, args) #:nodoc:
       raise NotImplementedError, "No such method: `#{attribute}` (Automatic associations are not yet supported)"
       # association = @klass.reflect_on_association(attribute)
