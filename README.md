@@ -14,4 +14,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 Peter Williams. See LICENSE for details.
+Copyright (c) 2011 OpenLogic, Inc.. See LICENSE for details.
